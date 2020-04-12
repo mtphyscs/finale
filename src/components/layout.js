@@ -1,15 +1,15 @@
-// import React from "react"
+import React from "react"
 
-// import Header from './header'
-// import Footer from './footer'
+import Header from './header'
+import Footer from './footer'
 
-// const Layout = (props) => {
-//   return (
-//     <div>
-//       <Header />
-//       {props.children}
-//       <Footer />
-//     </div>
-//   )
-// }
-// export default Layout
+const Layout = (props) => {
+  return (
+    <div>
+      <Header />
+      {props.children}
+      <Footer />
+    </div>
+  )
+}
+export default Layout
