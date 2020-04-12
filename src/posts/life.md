@@ -1,5 +1,5 @@
 ---
-tittle: "Life"
+title: "Life"
 date: "02-22-2020"
 ---
 
