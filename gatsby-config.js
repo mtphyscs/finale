@@ -10,8 +10,8 @@ module.exports = {
       resolve: 'gatsby-source-amazon-wishlist',
       options: {
         wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LUM7XCL2UCCV/ref=nav_wishlist_lists_2?_encoding=UTF8&type=wishlist',
-        language: 'en-GB',
-        limit: 25,
+        language: en-US,
+        limit:false,
       },
     },
 

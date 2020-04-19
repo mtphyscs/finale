@@ -4,21 +4,7 @@ import { Link, useStaticQuery, graphql } from 'gatsby'
 import Head from '../components/head'
 
 const Library = () => {
-  const data = useStaticQuery(graphql`
-    {
-      allAmazonWishlistItem {
-        edges {
-          node {
-            title
-            url
-            image {
-              url
-            }
-          }
-        }
-      }
-    }
-  `)
+ 
   return (
     <Layout>
       <Head title="Library" />
