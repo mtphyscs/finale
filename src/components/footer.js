@@ -22,9 +22,9 @@ const Footer = () => {
         <a href="https://twitter.com/mtphyscs" target="_blank">
           Twitter
         </a>
-        , 
+          , 
         <a href="https://github.com/mtphyscs" target="_blank">
-          GitHub
+           GitHub
         </a> 
         , or good old-fashioned{" "}
         <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZZPzMZWbHMzpMqXPzPLQVbvpQnTJCcqBGMWRXRfdqPWNvrlLfNCSMzgXpkHsWcpWhGWHg" target="_blank">
