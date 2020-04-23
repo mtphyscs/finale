@@ -7,14 +7,22 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     {
-      resolve: 'gatsby-source-amazon-wishlist',
+      resolve: '@sbardian/gatsby-source-amazon-wishlist',
       options: {
-        wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LUM7XCL2UCCV/ref=nav_wishlist_lists_2?_encoding=UTF8&type=wishlist',
-        language: en-US,
-        limit:false,
+        lists: [
+          {
+            owner: 'mtphyscs',
+            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LUM7XCL2UCCV/ref=nav_wishlist_lists_2?_encoding=UTF8&type=wishlist',
+            limit: 25,
+          },
+          {
+            owner: 'mtphyscs',
+            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LUM7XCL2UCCV/ref=nav_wishlist_lists_2?_encoding=UTF8&type=wishlist',
+          }
+        ]
       },
     },
-
+ 
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",

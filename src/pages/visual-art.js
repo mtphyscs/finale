@@ -5,8 +5,8 @@ import Head from '../components/head'
 const VisualArt = () => {
   return (
     <Layout>
-      <Head title="Contact"/>
-      <h1>Find me</h1>
+      <Head title="Visual Art"/>
+      <h1>Visuals</h1>
 
     </Layout>
   )
