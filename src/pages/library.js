@@ -42,7 +42,7 @@ const Library = () => {
           return (
             <li>
               <Link to={`/book/${edge.node.title}`}>
-                {/* <img src={edge.node.image.url.replace("SS135_.jpg", "LL135_.jpg")} alt=""></img> */}
+                <img src={edge.node.image.url.replace("SS135_.jpg", "LL135_.jpg")} alt=""></img>
                 <h2 className={libraryStyles.a}>{edge.node.title}</h2>
               </Link>
             </li>
