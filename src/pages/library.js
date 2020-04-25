@@ -6,21 +6,27 @@ import libraryStyles from "./library.module.scss"
 
 const Library = () => {
   const data = useStaticQuery(graphql`
-    query {
-      allAmazonWishlistItem {
-        edges {
-          node {
-            title
+  {
+    allAmazonWishlistItem {
+      edges {
+        node {
+          id
+          owner
+          title
+          url
+          price
+          features
+          comment
+          priority
+          purchased
+          requested
+          image {
             url
-            features
-            comment
-            image {
-              url
-            }
           }
         }
       }
     }
+  }
   `)
 
   return (
