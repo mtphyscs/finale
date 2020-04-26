@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import Head from "../components/head"
 import libraryStyles from "./library.module.scss"
 
@@ -10,16 +10,7 @@ const Library = () => {
     allAmazonWishlistItem {
       edges {
         node {
-          id
-          owner
           title
-          url
-          price
-          features
-          comment
-          priority
-          purchased
-          requested
           image {
             url
           }
