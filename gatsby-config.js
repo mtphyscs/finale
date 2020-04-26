@@ -12,12 +12,12 @@ module.exports = {
         lists: [
           {
             owner: 'mtphyscs',
-            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LUM7XCL2UCCV/ref=nav_wishlist_lists_3?_encoding=UTF8&type=wishlist',
+            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LUM7XCL2UCCV/ref=nav_wishlist_lists_2?_encoding=UTF8&type=wishlist',
             limit: false,
           },
           {
             owner: 'mtphyscs',
-            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LUM7XCL2UCCV/ref=nav_wishlist_lists_3?_encoding=UTF8&type=wishlist',
+            wishlistUrl: 'https://www.amazon.com/hz/wishlist/ls/2LUM7XCL2UCCV/ref=nav_wishlist_lists_2?_encoding=UTF8&type=wishlist',
           }
         ]
       },
