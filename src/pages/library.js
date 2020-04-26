@@ -10,7 +10,16 @@ const Library = () => {
     allAmazonWishlistItem {
       edges {
         node {
+          id
+          owner
           title
+          url
+          price
+          features
+          comment
+          priority
+          purchased
+          requested
           image {
             url
           }
