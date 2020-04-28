@@ -45,6 +45,7 @@ const Footer = () => {
         </a>
         . © 2020 
       </p>
+ 
     </footer>
   )
 }
