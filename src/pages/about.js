@@ -35,7 +35,9 @@ const AboutPage = () => {
         mtphyscs is an abstract idea that was created to make tangible what is
         inside of my mind and soul. mtphyscs is a theory with no basis in
         reality that deals with concepts such as being, knowing, substance,
-        cause, identity, time, and space.
+        cause, identity, time, and space. mtphyscs aims to inspire through
+        multiple mediums, channels, and through the continued curation of its
+        digital platform.
       </p>
     </Layout>
   )
