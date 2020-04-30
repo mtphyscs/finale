@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import Head from '../components/head'
+import Head from "../components/head"
 
 const AboutPage = () => {
   return (
@@ -10,16 +10,16 @@ const AboutPage = () => {
       <h1>Who Am I</h1>
 
       <p>
-        I’m a creative thinker and maker–of–software based in Miami Beach,
-        Florida; born+raised in Costa Rica. I’m passionate about the
-        intersection of art, technology, design, and philosophy.
+        I’m a creative thinker and maker based in Miami Beach, Florida;
+        born+raised in Costa Rica. I’m passionate about the intersection of art,
+        technology, design, and philosophy.
       </p>
 
       <p>
         I'm interested in emerging technology, design systems, and creating
         memorable experiences that push the boundaries of our times. I’m a
-        multi-disciplinary designer, developer and dabbler of all creative
-        matters.
+        multi-disciplinary designer, software engineer and dabbler of all
+        creative matters.
       </p>
 
       <p>
@@ -32,12 +32,12 @@ const AboutPage = () => {
       </p>
       <h1>What Is mtphyscs</h1>
       <p>
-        mtphyscs is an abstract idea that was created to make tangible what is
-        inside of my mind and soul. mtphyscs is a theory with no basis in
-        reality that deals with concepts such as being, knowing, substance,
-        cause, identity, time, and space. mtphyscs aims to inspire through
-        multiple mediums, channels, forms and through the continued curation of
-        its digital platform.
+        mtphyscs is an abstract idea that was created to make tangible what
+        comes from the higher planes of existence. mtphyscs is a theory with no
+        basis in reality that deals with concepts such as being, knowing,
+        substance, cause, identity, time, and space. mtphyscs aims to inspire
+        through manifestations in multiple mediums, channels, forms, and through
+        the continued curation of its digital platform.
       </p>
     </Layout>
   )
