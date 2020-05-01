@@ -7,6 +7,16 @@ const AboutPage = () => {
   return (
     <Layout>
       <Head title="About" />
+      <h1>What Is mtphyscs</h1>
+      <p>
+        mtphyscs is an abstract idea that was created to make tangible what
+        comes from the higher planes of existence. mtphyscs is a theory with no
+        basis in reality that deals with concepts such as being, knowing,
+        substance, cause, identity, time, and space. mtphyscs aims to inspire
+        through manifestations in multiple mediums, channels, forms, and through
+        the continued curation of its digital platform.
+      </p>
+
       <h1>Who Am I</h1>
 
       <p>
@@ -29,15 +39,6 @@ const AboutPage = () => {
         my interests decide. I'm ever-expanding yet whole; wise enough to know
         that there is plenty left to learn; humble and happy as I grow. I'm
         grateful for who I am and can be.
-      </p>
-      <h1>What Is mtphyscs</h1>
-      <p>
-        mtphyscs is an abstract idea that was created to make tangible what
-        comes from the higher planes of existence. mtphyscs is a theory with no
-        basis in reality that deals with concepts such as being, knowing,
-        substance, cause, identity, time, and space. mtphyscs aims to inspire
-        through manifestations in multiple mediums, channels, forms, and through
-        the continued curation of its digital platform.
       </p>
     </Layout>
   )
