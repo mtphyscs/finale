@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <footer className={footerStyles.footer}>
-      <hr />
+   
       <p>
       
         Written, designed, and built by {data.site.siteMetadata.author}, a

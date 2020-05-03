@@ -1,28 +1,23 @@
 @import url(https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap);
 
-.header {
-  padding: 1rem 0 3rem;
-}
+// .header {
+//   display:flex;
+// }
 
 .title {
+  background-color: rgb(241, 211, 38);
   font-family: 'Baloo Thambi 2', cursive;
-  color: #40b6e6;
-  
+  color: #181B29;
   font-size: 3rem;
   text-decoration: none;
-
- 
-  margin-top: 10px;
-
-  
-  margin-left: 10px;
-  
   transition: 1s;
+background-size: 100%;
 
 
 }
 .title:hover {
- fill:#008001;
+ color:#A9B9DE;
+//  font-size: 3.03rem;
  
 }
 
@@ -34,16 +29,16 @@
 }
 
 .nav-item {
-  color: #97d2e9;
-  
-  font-size: 0.9rem;
-  margin-right: 1.3rem;
+  color:  #181B29;
+  background-color: rgb(152, 159, 233);
+  font-size: 1rem;
+  margin-right: 4rem;
   text-decoration: none;
 }
 
 .nav-item:hover {
 
- color: #008001;
+ color: #A9B9DE;
 }
 
 

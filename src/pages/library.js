@@ -29,7 +29,7 @@ const Library = () => {
         Here you’ll find an occasionally-updated list of books I’ve read and
         enjoyed.
       </h2>
-      <ol>
+      <ol className={libraryStyles.ol}>
         {data.allAmazonWishlistItem.edges.map(edge => {
           return (
             <li>

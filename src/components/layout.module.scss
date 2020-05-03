@@ -1,33 +1,65 @@
 @import url(https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap);
 
+body {
+  background-image: url("./test.png");
+  color: #9cd5ec;
 
-
-body{
-background-color: rgb(0, 0, 0);
-color: #9cd5ec;
-
-
-
+  // padding: 40px;
+	// overflow-x: hidden; /* For Opera */
+	// -webkit-box-shadow:
+	// 	inset #9cd5ec  0 0 0 5px,
+	// 	inset #9cd5ec  0 0 0 1px,
+	// 	inset #9cd5ec 0 0 0 10px,
+	// 	inset #A9B9DE 0 0 0 21px,
+	// 	inset #9cd5ec  0 0 0 16px,
+	// 	inset #9cd5ec 0 0 0 17px,
+	// 	inset #9cd5ec  0 0 0 22px,
+	// 	inset #9cd5ec 0 0 0 23px;
+	// -moz-box-shadow:
+	// 	inset #9cd5ec  0 0 0 5px,
+	// 	inset #9cd5ec  0 0 0 1px,
+	// 	inset #9cd5ec 0 0 0 10px,
+	// 	inset #A9B9DE 0 0 0 21px,
+	// 	inset #9cd5ec  0 0 0 16px,
+	// 	inset #9cd5ec  0 0 0 17px,
+	// 	inset #9cd5ec 0 0 0 22px,
+	// 	inset #9cd5ec 0 0 0 23px;
+	// box-shadow:
+	// 	inset #9cd5ec  0 0 0 5px,
+	// 	inset #9cd5ec   0 0 0 1px,
+	// 	inset #9cd5ec 0 0 0 10px,
+	// 	inset #A9B9DE 0 0 0 21px,
+	// 	inset #9cd5ec  0 0 0 16px,
+	// 	inset #9cd5ec 0 0 0 17px,
+	// 	inset #9cd5ec 0 0 0 22px,
+	// 	inset #9cd5ec 0 0 0 23px;
 }
 .container {
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: "Baloo Thambi 2", cursive;
   margin: 0 auto;
-  max-width: 65%;
-  padding: 1rem;
- 
-
+  max-width: 100%;
+  padding: 0rem;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  
 }
 
 .content {
   flex-grow: 1;
+  background: #000000;
 }
 
 hr:not(.container) {
   margin: 0mm;
   max-width: 100%;
   width: 100%;
-  border: 1.5px solid #9cd5ec;
+  border: 0.5px solid #9cd5ec;
+}
+.aboutStyles {
+  background-color: #000000;
+}
+
+p {
+  background-color: #6f3f9f;
 }

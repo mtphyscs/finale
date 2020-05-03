@@ -80,7 +80,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <hr width="100%"/>
+      {/* <hr width="100%"/> */}
     </header>
   
   )
