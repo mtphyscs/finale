@@ -22,7 +22,7 @@ const Header = () => {
           {data.site.siteMetadata.title}
         </Link>
       </h3>
-      <nav>
+      <nav className={headerStyles.nav}>
         <ul className={headerStyles.navList}>
           <li>
             <Link

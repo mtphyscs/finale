@@ -3,20 +3,23 @@
 .footer {
   font-family: "Baloo Thambi 2", cursive;
   margin-top: 3rem;
- 
+  background-color: #008000;
+  text-align: center;
+  margin-bottom: 0rem;
+
 }
 
 a {
   font-family: "Baloo Thambi 2", cursive;
-color: #40b6e6;
 
+  color: rgb(16, 202, 248);
 }
 a:hover {
-
-  color: #008001;
+  color: rgb(241, 211, 38);
 }
 
 .spacing {
   margin-right: 5px;
   margin-left: 5px;
+  margin-bottom: 0px;
 }

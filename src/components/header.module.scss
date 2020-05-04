@@ -6,42 +6,45 @@
 
 .title {
   background-color: rgb(241, 211, 38);
-  font-family: 'Baloo Thambi 2', cursive;
-  color: #181B29;
+  font-family: "Baloo Thambi 2", cursive;
+  color: #181b29;
   font-size: 3rem;
   text-decoration: none;
   transition: 1s;
-background-size: 100%;
-
-
+  background-size: 100%;
 }
 .title:hover {
- color:#A9B9DE;
-//  font-size: 3.03rem;
- 
+  color: rgb(16, 202, 248);
+  //  font-size: 3.03rem;
+}
+
+.nav {
+  background-color: rgb(241, 211, 38);
+  text-align: center;
 }
 
 .nav-list {
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: "Baloo Thambi 2", cursive;
   display: flex;
+  text-align: center;
   list-style-type: none;
   margin: 0;
 }
 
 .nav-item {
-  color:  #181B29;
-  background-color: rgb(152, 159, 233);
-  font-size: 1rem;
-  margin-right: 4rem;
+  color: #181b29;
+  font-size: 1.5rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
   text-decoration: none;
 }
 
 .nav-item:hover {
+  background-color: #40b6e6;
 
- color: #A9B9DE;
+  color: rgb(241, 211, 38);
 }
 
-
-hr{
-  color: #40b6e6;
+.nav-item:active {
+  background-color: #40b6e6;
 }
