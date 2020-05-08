@@ -12,10 +12,9 @@
  a{
         font-family: 'Baloo Thambi 2', cursive;
         
-        // background: #111111;
-        background: #6f3f9f;
+        background: rgb(41, 41, 41);
        
-        color: #9cd5ec;
+        color: #ffffff;
         display:block;
         padding: 1rem;
         text-decoration: none;
@@ -23,8 +22,7 @@
     }
     a:hover{
       
-        // background: #202020;
-        background: #9e5fde;
+        background: rgb(59, 59, 59);
     }
 
     h2 {
@@ -32,6 +30,7 @@
     }
     p{
         font-family: 'Baloo Thambi 2', cursive;
+      background-color: none;
     
         font-size: .8rem;
         font-style: italic;

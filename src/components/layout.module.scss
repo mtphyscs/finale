@@ -1,24 +1,24 @@
 @import url(https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap);
 
 body {
-  background-image: url("./test.png");
-  color: #9cd5ec;
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
 
 }
 .container {
   font-family: "Baloo Thambi 2", cursive;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 75%;
   padding: 0rem;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  
+  border-width: 30px;
 }
 
 .content {
   flex-grow: 1;
-  background: #000000;
+  background: rgb(0, 0, 0);
 
 }
 
@@ -27,7 +27,3 @@ body {
   background-color: #000000;
 }
 
-p {
-  background-color:    #6f3f9f;
-
-}
