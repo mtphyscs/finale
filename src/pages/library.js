@@ -6,19 +6,19 @@ import libraryStyles from "./library.module.scss"
 
 const Library = () => {
   const data = useStaticQuery(graphql`
-  {
-    allAmazonWishlistItem {
-      edges {
-        node {
-          url
-          title
-          image {
+    {
+      allAmazonWishlistItem {
+        edges {
+          node {
             url
+            title
+            image {
+              url
+            }
           }
         }
       }
     }
-  }
   `)
 
   return (
@@ -34,11 +34,11 @@ const Library = () => {
           return (
             <li>
               <a href={edge.node.url} target="_blank">
-              <img
-                src={edge.node.image.url.replace("SS135_.jpg", "FF400_.jpg")}
-                alt=""
-              ></img>
-              <p className={libraryStyles.a}>{edge.node.title}</p>
+                <img
+                  src={edge.node.image.url.replace("SS135_.jpg", "FF400_.jpg")}
+                  alt=""
+                ></img>
+                <p className={libraryStyles.a}>{edge.node.title}</p>
               </a>
             </li>
           )
