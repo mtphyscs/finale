@@ -25,6 +25,7 @@ const Header = () => {
       <nav className={headerStyles.nav}>
         <ul className={headerStyles.navList}>
           <li>
+            
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
@@ -80,7 +81,6 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      {/* <hr width="100%"/> */}
     </header>
   
   )
