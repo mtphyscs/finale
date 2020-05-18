@@ -1,33 +1,34 @@
 @import url(https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap);
 
-// .header {
-//   display:flex;
-// }
+.header {
+  display:flex;
+  margin-top: -1rem;
+}
 
 .title {
   font-family: "Baloo Thambi 2", cursive;
   color: rgb(255, 255, 255);
   font-size: 3rem;
- 
   text-decoration: none;
   transition: 1s;
+  margin-left: 2rem;
 
-  margin-bottom: 5rem;
 }
 .title:hover {
   color: #238d31;
 }
 
 .nav {
+  display:flex;
   text-align: center;
-  border-radius: 10px;
-  margin-bottom: 5rem;
+  margin-left: 4rem;
+  margin-top: 2.7rem;
 }
 
 .nav-list {
   font-family: "Baloo Thambi 2", cursive;
   display: flex;
-  text-align: center;
+  text-align: left;
   list-style-type: none;
   margin: 0;
 }
@@ -35,16 +36,13 @@
 .nav-item {
   color: #ffffff;
   font-size: 1.5rem;
-  margin-right: 1.5rem;
-  margin-left: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
   text-decoration: none;
 }
 
 .nav-item:hover {
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   background-color: #ffffff;
 }
 
-// .nav-item:focus {
-//   background-color: #ad0000;
-// }

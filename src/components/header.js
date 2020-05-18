@@ -25,6 +25,7 @@ const Header = () => {
       <nav className={headerStyles.nav}>
         <ul className={headerStyles.navList}>
           <li>
+            
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
@@ -73,14 +74,13 @@ const Header = () => {
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
-              to="/visual-art"
+              to="/contact"
             >
-              Visual Art
+              Contact
             </Link>
           </li>
         </ul>
       </nav>
-      {/* <hr width="100%"/> */}
     </header>
   
   )
