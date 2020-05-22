@@ -1,29 +1,29 @@
 import React from "react"
 import Layout from "../components/layout"
-import Head from '../components/head'
+import Head from "../components/head"
+import contactStyles from './contact.module.scss'
 
 const Contact = () => {
   return (
     <Layout>
-      <Head title="Visual Art"/>
+      <Head title="Contact" />
       <h1>Contact</h1>
-      <h2>Name *</h2>
-      <form 
-      name="contact" 
-      method="post"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
+      <form
+        name="contact"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
       >
-        <input name="name" placeholder="name" type="text"/>
-        <input name="email" placeholder="email" type="text"/>
-        <input name="message" placeholder="message" type="text"/>
-        <button>
-          SEND
-        </button>
-
+        <h3>Name *</h3>
+        <input name="name" type="text" />
+        <h3>Email *</h3>
+        <input name="email"  type="text" />
+        <h3>Message *</h3>
+        <input className={contactStyles.message} name="message"  type="text" />
+        <br/>
+        <br/>
+        <button>SEND</button>
       </form>
-
-
     </Layout>
   )
 }
