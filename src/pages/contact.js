@@ -19,7 +19,7 @@ const Contact = () => {
         <h3>Email *</h3>
         <input name="email"  type="text" />
         <h3>Message *</h3>
-        <input className={contactStyles.message} name="message"  type="text" />
+        <input className={contactStyles.message}   type="textarea" name="message" rows="10" cols="30" />
         <br/>
         <br/>
         <button>SEND</button>
